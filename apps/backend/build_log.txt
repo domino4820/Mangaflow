@@ -1,0 +1,48 @@
+﻿[96msrc/manga/manga.controller.ts[0m:[93m22[0m:[93m32[0m - [91merror[0m[90m TS1272: [0mA type referenced in a decorated signature must be imported with 'import type' or a namespace import when 'isolatedModules' and 'emitDecoratorMetadata' are enabled.
+System.Management.Automation.RemoteException
+[7m22[0m   findAll(@CurrentUser() user: AuthUser) {
+[7m  [0m [91m                               ~~~~~~~~[0m
+System.Management.Automation.RemoteException
+  [96msrc/manga/manga.controller.ts[0m:[93m12[0m:[93m23[0m
+    [7m12[0m import { CurrentUser, AuthUser } from '../auth/auth.decorator';
+    [7m  [0m [96m                      ~~~~~~~~[0m
+    'AuthUser' was imported here.
+[96msrc/manga/manga.controller.ts[0m:[93m28[0m:[93m33[0m - [91merror[0m[90m TS1272: [0mA type referenced in a decorated signature must be imported with 'import type' or a namespace import when 'isolatedModules' and 'emitDecoratorMetadata' are enabled.
+System.Management.Automation.RemoteException
+[7m28[0m   getQuota(@CurrentUser() user: AuthUser) {
+[7m  [0m [91m                                ~~~~~~~~[0m
+System.Management.Automation.RemoteException
+  [96msrc/manga/manga.controller.ts[0m:[93m12[0m:[93m23[0m
+    [7m12[0m import { CurrentUser, AuthUser } from '../auth/auth.decorator';
+    [7m  [0m [96m                      ~~~~~~~~[0m
+    'AuthUser' was imported here.
+[96msrc/manga/manga.controller.ts[0m:[93m36[0m:[93m26[0m - [91merror[0m[90m TS1272: [0mA type referenced in a decorated signature must be imported with 'import type' or a namespace import when 'isolatedModules' and 'emitDecoratorMetadata' are enabled.
+System.Management.Automation.RemoteException
+[7m36[0m     @CurrentUser() user: AuthUser,
+[7m  [0m [91m                         ~~~~~~~~[0m
+System.Management.Automation.RemoteException
+  [96msrc/manga/manga.controller.ts[0m:[93m12[0m:[93m23[0m
+    [7m12[0m import { CurrentUser, AuthUser } from '../auth/auth.decorator';
+    [7m  [0m [96m                      ~~~~~~~~[0m
+    'AuthUser' was imported here.
+[96msrc/manga/manga.controller.ts[0m:[93m45[0m:[93m26[0m - [91merror[0m[90m TS1272: [0mA type referenced in a decorated signature must be imported with 'import type' or a namespace import when 'isolatedModules' and 'emitDecoratorMetadata' are enabled.
+System.Management.Automation.RemoteException
+[7m45[0m     @CurrentUser() user: AuthUser,
+[7m  [0m [91m                         ~~~~~~~~[0m
+System.Management.Automation.RemoteException
+  [96msrc/manga/manga.controller.ts[0m:[93m12[0m:[93m23[0m
+    [7m12[0m import { CurrentUser, AuthUser } from '../auth/auth.decorator';
+    [7m  [0m [96m                      ~~~~~~~~[0m
+    'AuthUser' was imported here.
+[96msrc/manga/manga.controller.ts[0m:[93m54[0m:[93m26[0m - [91merror[0m[90m TS1272: [0mA type referenced in a decorated signature must be imported with 'import type' or a namespace import when 'isolatedModules' and 'emitDecoratorMetadata' are enabled.
+System.Management.Automation.RemoteException
+[7m54[0m     @CurrentUser() user: AuthUser,
+[7m  [0m [91m                         ~~~~~~~~[0m
+System.Management.Automation.RemoteException
+  [96msrc/manga/manga.controller.ts[0m:[93m12[0m:[93m23[0m
+    [7m12[0m import { CurrentUser, AuthUser } from '../auth/auth.decorator';
+    [7m  [0m [96m                      ~~~~~~~~[0m
+    'AuthUser' was imported here.
+System.Management.Automation.RemoteException
+Found 5 error(s).
+
